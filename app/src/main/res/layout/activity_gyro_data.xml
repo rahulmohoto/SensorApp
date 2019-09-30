@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gyroData">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/welcome_edit"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/welcome_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Gyroscope Data"
+        android:textColor="#0C0C0C"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps" />
+
+</RelativeLayout>

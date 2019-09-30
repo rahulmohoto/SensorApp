@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="welcome_edit">Welcome To The Sensor App</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+</resources>
